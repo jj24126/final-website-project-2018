@@ -1,0 +1,13 @@
+h1 {
+	font-family: forte,comic sans, cursive;
+	border-bottom: 1px solid black;
+	text-align: center
+}
+
+ul{
+	text-align: center;
+	list-style: none;
+	line-height: 25px;
+}
+
+
