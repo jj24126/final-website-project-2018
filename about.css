@@ -15,3 +15,7 @@ body{
 a:visited{
 	color:red;
 }
+
+.homelink{
+	text-align: center;
+}
