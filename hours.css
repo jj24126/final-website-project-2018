@@ -1,18 +1,15 @@
 h1{
 	text-align: center;
-	border-bottom: 1px solid black;
-}
-
-ul{
-	text-align: center;
-	line-height: 25px;
-	list-style: none;
+	border-bottom: 1px solid black
 }
 
 a:visited{
-	color: red;
+	color:red;
 }
 
 body{
 	background-color:orange;
+}
+.homelink{
+	text-align: center;
 }
