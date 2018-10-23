@@ -8,3 +8,11 @@ ul{
 	line-height: 25px;
 	list-style: none;
 }
+
+a:visited{
+	color: red;
+}
+
+body{
+	background-color:orange;
+}
