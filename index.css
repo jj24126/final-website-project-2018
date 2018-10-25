@@ -26,3 +26,10 @@ body{
 	background-repeat: no-repeat;
 	background-position:center top;
 }
+
+@media print {
+	html{
+	background-color: white;
+	font-family: serif;
+		}
+	}
