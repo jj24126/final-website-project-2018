@@ -9,8 +9,13 @@ a:visited{
 
 body{
 	background-color:orange;
+	font-family: sans-serif;
 }
 
 .homelink{
 	text-align: center;
+}
+
+dt{
+	font-weight: bold;
 }
