@@ -19,3 +19,10 @@ body{
 dt{
 	font-weight: bold;
 }
+
+@media print{
+	html{
+		background-color: white;
+		font-family: serif;
+	}
+}
