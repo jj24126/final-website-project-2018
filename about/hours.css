@@ -15,10 +15,17 @@ a:visited{
 }
 
 body{
-	background-color:orange;
+	background-color: orange;
 	font-family: sans-serif;
 }
 
 .homelink{
 	text-align: center;
+}
+
+@media print{
+	html{
+		background-color: white;
+		font-family: serif;
+	}
 }
