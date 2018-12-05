@@ -1,35 +1,37 @@
 h1 {
 	font-family: footlight MT Light,Californian FB,serif;
-	border-bottom: 1px solid black;
+	color: white;
+	font-size: 500%;
 	text-align: center;
-	color: black;
-	font-size: 70px;
+	margin:0%;
 }
 
 ul{
-	text-align: center;
 	list-style: none;
-	line-height: 50px;
-	font-size: 40px;
 	font-family: sans-serif;
+	padding: 0%;
+	text-align: center;
+	margin:0%;
+}
+
+li{
+	font-size: 250%;
 }
 
 a:link{
-	color: black;
+	color:black;
 }
 
 a:visited{
-	color:red;
-}
-body{
-	background-image: url(images/pizza2.jpg);
-	background-repeat: no-repeat;
-	background-position:center top;
+	color:purple;
 }
 
-@media print {
-	html{
-	background-color: white;
-	font-family: serif;
-		}
-	}
+body{
+	font-size: 100%;
+}
+
+html{
+	background: url(images/pizza3.jpg) repeat-x center center fixed;
+	background-size: cover;
+}
+
