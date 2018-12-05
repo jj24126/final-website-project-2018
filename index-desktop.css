@@ -1,0 +1,15 @@
+li{
+	display: inline;
+	margin-left: 50px;
+	margin-right: 75px;
+}
+
+ul{
+	background-color: black;
+	opacity:0.7;
+}
+
+a:link{
+	color: white;
+}
+
