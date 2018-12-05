@@ -1,0 +1,13 @@
+h1{
+	background-color: black;
+	opacity: 0.7;
+}
+
+body{
+	margin: 0px;
+}
+
+li{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
