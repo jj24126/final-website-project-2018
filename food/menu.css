@@ -1,6 +1,9 @@
-h1{
+header h1{
 	text-align: center;
-	border-bottom: 1px solid black;
+}
+
+nav ul{
+	list-style: none;
 }
 
 a:visited{
@@ -12,17 +15,8 @@ body{
 	font-family: sans-serif;
 }
 
-.homelink{
-	text-align: center;
-}
+
 
 dt{
 	font-weight: bold;
-}
-
-@media print{
-	html{
-		background-color: white;
-		font-family: serif;
-	}
 }
