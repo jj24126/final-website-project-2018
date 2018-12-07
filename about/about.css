@@ -16,14 +16,3 @@ body{
 a:visited{
 	color:red;
 }
-
-.homelink{
-	text-align: center;
-}
-
-@media print{
-	html{
-		background-color: white;
-		font-family: serif;
-	}
-}
