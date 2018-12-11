@@ -7,22 +7,35 @@
 		content="Here are the business hours for Mark's Pizzeria" />
 		<title>Hours of Operation</title>
 		<link type="text/css" rel="stylesheet" href="hours.css">
-		<link href="hours.css" rel="stylesheet" media="print">
+		<link type = "text/css" rel = "stylesheet" href = "hours-mobile.css" media = "screen and (max-width:480px)">
+		<link type = "text/css" rel = "stylesheet" href = "hours-desktop.css" media = "screen and (min-width:481px)">
 	</head>
 	<body>
 		<header>
 			<h1>Business Hours</h1>
 				<nav>
-					<ul>
+					<div class="vertical-menu">
+					<ul>	
 						<li><a href = "../index.html">Home</a></li>
-						<li><a href = "../food/menu.html">Menu</a></li>
+						<div class = "dropdown">	
+							<li><a href = "../food/menu.html">Menu</a></li>
+							<div class = "dropdown-content">
+									<ul>
+										<li><a href = "../food/menu.html#pizza">Pizza</a></li>
+										<li><a href = "../food/menu.html#wings">Wings</a></li>
+										<li><a href = "../food/menu.html#desserts">Desserts</a></li>
+									</ul>
+								</div>
+							</div>
 						<li><a href = "about.html">About</a></li>
 						<li><a href = "contact.html">Contact</a></li>
 					</ul>
+					</div>
 				</nav>
-		</header>		
+		</header>
+				<div class="hours">		
 				<ul>
-					<li>Monday 12:00pm - 9:00pm</li>
+					<li>Monday 12:00pm - 9:00pm</span></li>
 					<li>Tuesday 12:00pm - 9:00pm</li>
 					<li>Wednesday 12:00pm - 9:00pm</li>
 					<li>Thursday 12:00pm - 9:00pm</li>
@@ -30,5 +43,6 @@
 					<li>Saturday 12:00pm - 9:00pm</li>
 					<li>Sunday - Closed</li>
 				</ul>
+				</div>
 	</body>
 </html>	

@@ -7,18 +7,30 @@
 		<meta name="description"
 		content="Contact information for Mark's Pizzeria" />
 		<link type="text/css" rel="stylesheet" href="contact.css">
-		<link href="contact.css" rel="stylesheet" media="print">
+		<link type = "text/css" rel = "stylesheet" href = "contact-mobile.css" media = "screen and (max-width:480px)">
+		<link type = "text/css" rel = "stylesheet" href = "contact-desktop.css" media = "screen and (min-width:481px)">
 	</head>
 	<body>
 		<header>
 			<h1>Contact Us</h1>
 			<nav>
+				<div class="vertical-menu">
 				<ul>
 					<li><a href = "../index.html">Home</a></li>
-					<li><a href = "../food/menu.html">Menu</a></li>
+					<div class = "dropdown">
+						<li><a href = "../food/menu.html">Menu</a></li>
+						<div class = "dropdown-content">
+							<ul>
+								<li><a href = "../food/menu.html#pizza">Pizza</a></li>
+								<li><a href = "../food/menu.html#wings">Wings</a></li>
+								<li><a href = "../food/menu.html#desserts">Desserts</a></li>
+							</ul>
+						</div>
+					</div>
 					<li><a href = "hours.html">Hours</a></li>
 					<li><a href = "about.html">About</a></li>
 				</ul>
+				</div>
 			</nav>
 	    </header>
 	

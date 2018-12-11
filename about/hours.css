@@ -6,18 +6,19 @@ nav ul{
 	list-style: none;
 }
 
+a:visited{
+	color: purple;
+}
+
 ul{
 	text-align: center;
-	line-height: 25px;
 	list-style: none;
 	margin-right: 40px;
 }
 
-a:visited{
-	color: red;
-}
 
 body{
 	background-color: orange;
 	font-family: sans-serif;
 }
+

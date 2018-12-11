@@ -1,0 +1,36 @@
+.dropdown-content{
+	display: none;
+}
+
+ul{
+	padding-left: 0%;
+	margin: 0%;
+}
+
+.vertical-menu {
+  width: 100%; 
+}
+
+.vertical-menu ul{
+	text-align: center;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+body{
+	margin:0%;
+}
+
+a:visited{
+	color: purple;
+}
