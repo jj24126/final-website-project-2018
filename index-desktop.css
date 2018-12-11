@@ -13,3 +13,25 @@ a:link{
 	color: white;
 }
 
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	  display: none;
+	  position: absolute;
+	  min-width: 100%;
+}
+
+.dropdown-content ul{
+	background-color: white;
+	opacity: 1;
+	text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+

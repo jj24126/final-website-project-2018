@@ -8,17 +8,26 @@
 		<title>Mark's Pizzeria</title>
 		<link type = "text/css" rel = "stylesheet" href = "index.css">
 		<link type = "text/css" rel = "stylesheet" href = "index-mobile.css" media = "screen and (max-width:480px)">
-		<link type = "text/css" rel = "stylesheet" href = "index-desktop.css" media= "screen and (min-width:481px)">
+		<link type = "text/css" rel = "stylesheet" href = "index-desktop.css" media = "screen and (min-width:481px)">
 	</head>
 	<body>
 		<header>
 			<h1>Mark's Pizzeria</h1>
 				<nav>
 					<ul>
-						<li><a href = "food/menu.html">Menu</a></li>
-						<li><a href = "about/hours.html">Hours</a></li>
-						<li><a href = "about/about.html">About</a></li>
-						<li><a href = "about/contact.html">Contact</a></li>
+						<div class = "dropdown">
+							<li><a href = "food/menu.html">Menu</a></li>
+							<div class = "dropdown-content">
+								<ul>
+									<li><a href = "food/menu.html#pizza">Pizza</a></li>
+									<li><a href = "food/menu.html#wings">Wings</a></li>
+									<li><a href = "food/menu.html#desserts">Desserts</a></li>
+								</ul>
+							</div>
+						</div>
+							<li><a href = "about/hours.html">Hours</a></li>
+							<li><a href = "about/about.html">About</a></li>
+							<li><a href = "about/contact.html">Contact</a></li>
 					</ul>	
 				</nav>
 		</header>
