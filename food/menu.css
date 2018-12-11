@@ -6,16 +6,15 @@ nav ul{
 	list-style: none;
 }
 
-a:visited{
-	color: red;
-}
 
 body{
 	background-color:orange;
 	font-family: sans-serif;
 }
 
-
+a:visited{
+	color: purple;
+}
 
 dt{
 	font-weight: bold;

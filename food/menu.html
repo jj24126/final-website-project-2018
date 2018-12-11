@@ -7,21 +7,24 @@
 		content="Mark's Pizzeria online menu" />
 		<title>Menu-Mark's Pizzeria</title>
 		<link type="text/css" rel="stylesheet" href="menu.css">
-		<link href="menu.css" rel="stylesheet" media="print">
+		<link type = "text/css" rel = "stylesheet" href = "menu-mobile.css" media = "screen and (max-width:480px)">
+		<link type = "text/css" rel = "stylesheet" href = "menu-desktop.css" media = "screen and (min-width:481px)">
 	</head>
 	<body>
 		<header>
 			<h1>Menu</h1>
 			<nav>
+				<div class="vertical-menu">
 				<ul>
 					<li><a href = "../index.html">Home</a></li>
 					<li><a href = "../about/hours.html">Hours</a></li>
 					<li><a href = "../about/about.html">About</a></li>
 					<li><a href = "../about/contact.html">Contact</a></li>
 				</ul>
+				</div>
 			</nav>
 		</header>	
-		<h2>Pizza</h2>	
+		<h2 id="pizza">Pizza</h2>	
 		<h3>Specialty Pies</h3>
 			<dl>
 				<dt>Supreme</dt>
@@ -74,19 +77,44 @@
 						<li>spinach</li>
 						<li>tomatoes</li>
 					</ul>
+		<h2 id="wings">Wings (17 pcs.)</h2>
+		<h3>Flavors</h3>
+			<ul>
+				<li>Buffalo</li>
+				<li>Chili Lime</li>
+				<li>Garlic</li>
+				<li>Lemon Pepper</li>
+				<li>Garlic Parmesan</li>
+				<li>Honey</li>
+				<li>Extra Spicy</li>
+				<li>Mild</li>
+			</ul>
+		<h2 id="desserts">Desserts</h2>
+		<h3>Icecream</h3>
+		<h4>Flavors</h4>
+			<ul>
+				<li>Vanilla</li>
+				<li>Strawberry</li>
+				<li>Chocolate</li>
+				<li>Rocky Road</li>
+				<li>Cookie Dough</li>
+				<li>Mint Chocolate Chip</li>
+				<li>Pistachio</li>
+				<li>Butter Pecan</li>
+			</ul>
+		<h3>Flavored Ice</h3>
+		<h4>Flavors</h4>
+			<ul>
+				<li>Lemon</li>
+				<li>Orange</li>
+				<li>Strawberry</li>
+				<li>Watermelon</li>
+				<li>Grape</li>
+				<li>Blueberry</li>
+				<li>Fruit Punch</li>
+			</ul>
 	</body>
 </html>						
-
-
-
-
-
-
-
-
-
-
-
 
 
 
