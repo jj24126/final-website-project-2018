@@ -18,7 +18,16 @@ ul{
 
 
 body{
-	background-color: orange;
 	font-family: sans-serif;
 }
+
+p{
+	text-align: center;
+}
+
+.days-off{
+	line-height: 200%;
+}
+
+
 

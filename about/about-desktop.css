@@ -3,7 +3,7 @@ header{
 }
 
 header h1{
-	font-size: 40px;
+	font-size: 250%;
 }
 
 nav ul{
@@ -15,7 +15,7 @@ nav ul li{
 	display: inline;
 	margin-left: 75px;
 	margin-right: 75px;
-	font-size: 27px;
+	font-size: 177%;
 }
 
 .dropdown{
@@ -39,3 +39,43 @@ nav ul li{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+body{
+	background-color: white;
+	border:40px solid red;
+	height: 100%;
+	margin:0%;
+}
+
+html{
+	height: 100%;
+}
+
+img{
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+p{
+	margin-top:10%;
+	margin-right: 4%;
+	color:gray;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+footer p{
+	margin-top:4.7%;
+	font-size: 70%;
+	color: black;
+}
+

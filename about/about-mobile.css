@@ -27,9 +27,14 @@ ul{
 }
 
 body{
-	margin:0%;
+	margin:1%;
+	background-color: orange;
 }
 
 a:visited{
 	color: purple;
+}
+
+footer p{
+	font-size: 100%
 }

@@ -3,7 +3,7 @@ header{
 }
 
 header h1{
-	font-size: 40px;
+	font-size: 250%;
 }
 
 nav ul{
@@ -17,7 +17,7 @@ nav ul li{
 	display: inline;
 	margin-left: 75px;
 	margin-right: 75px;
-	font-size: 27px;
+	font-size: 177%;
 }
 
 .dropdown{
@@ -40,4 +40,20 @@ nav ul li{
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+body{
+	background-color: white;
+	border:40px solid red;
+	height: 100%;
+	margin:0%;
+}
+
+html{
+	height:100%;
+}
+
+footer p{
+	margin-top: 16%;
+	font-size: 70%;
 }
