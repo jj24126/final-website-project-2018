@@ -30,7 +30,7 @@ a:link{
 	text-align: center;
 }
 
-.dropdown-content ul li a:link{
+.dropdown-content ul a:link{
 	color:blue;
 }
 
