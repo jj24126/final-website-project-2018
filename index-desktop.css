@@ -34,4 +34,11 @@ a:link{
   display: block;
 }
 
+footer{
+	margin-top:39%;
+}
 
+footer p{
+	font-weight: bold;
+	margin-bottom: 0%;
+}

@@ -1,3 +1,12 @@
 .dropdown-content{
 	display: none;
 }
+
+footer{
+	margin-top:60%;
+	text-align: left;
+}
+
+footer p{
+	font-weight: bold;
+}
